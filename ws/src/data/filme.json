@@ -1,0 +1,46 @@
+[
+    {
+        "titulo":"Enola Holmes",
+        "tipo":"serie",
+        "capa":"https://i.imgur.com/QGgXFl6.png",
+        "logo":"https://i.imgur.com/ZqxNOCO.png",
+        "thumb":"https://i.imgur.com/tPqnpDv.jpg",
+        "descricao":[
+            "Filmes para toda familia",
+            "Obra de época",
+            "Filme baseado em livors"
+        ],
+        "elenco":[
+            "Millie Bob Brown",
+            "Henry Cavill",
+            "Sam Claflin"
+        ],
+        "cenas_momentos":[
+            "Espirituosos",
+            "Suspense no ar",
+            "Emplogante"
+        ]
+    },
+    {
+        "titulo":"A sogra que te pariu",
+        "tipo":"filme",
+        "capa":"https://i.imgur.com/QGgXFl6.png",
+        "logo":"https://i.imgur.com/ZqxNOCO.png",
+        "thumb":"https://i.imgur.com/tPqnpDv.jpg",
+        "descricao":[
+            "Filmes para toda familia",
+            "Obra de época",
+            "Filme baseado em livors"
+        ],
+        "elenco":[
+            "Millie Bob Brown",
+            "Henry Cavill",
+            "Sam Claflin"
+        ],
+        "cenas_momentos":[
+            "Espirituosos",
+            "Suspense no ar",
+            "Emplogante"
+        ]
+    }
+    ]
