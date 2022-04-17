@@ -22,6 +22,6 @@ app.use('/episodeo',episodeosRoutes)
 
 
 
-app.listen(3001,()=>{
+app.listen(3002,()=>{
     console.log('Meu servidor está funcionando');
 })
