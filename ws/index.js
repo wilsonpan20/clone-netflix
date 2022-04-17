@@ -6,13 +6,17 @@ const database = require('./src/services/database')
 
 const app = express();
 
-const routes = require('./src/routes/filmes.routes')
+const filmeRoutes = require('./src/routes/filmes.routes')
+const usuarioRoutes = require('./src/routes/usuario.routes')
 
-
+///MIDDLEWARES
 app.use(bodyParser.json());
 app.use(cors());
 app.use(morgan('dev'));
-app.use('/',routes)
+
+///ROUTES
+app.use('/',filmeRoutes)
+app.use('/usuario',usuarioRoutes)
 
 
 app.listen(3001,()=>{
