@@ -8,6 +8,7 @@ const app = express();
 
 const filmeRoutes = require('./src/routes/filmes.routes')
 const usuarioRoutes = require('./src/routes/usuario.routes')
+const episodeosRoutes = require('./src/routes/episodeos.routes')
 
 ///MIDDLEWARES
 app.use(bodyParser.json());
@@ -17,6 +18,8 @@ app.use(morgan('dev'));
 ///ROUTES
 app.use('/',filmeRoutes)
 app.use('/usuario',usuarioRoutes)
+app.use('/episodeo',episodeosRoutes)
+
 
 
 app.listen(3001,()=>{

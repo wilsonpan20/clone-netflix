@@ -22,7 +22,7 @@ const addTemporadasEpisodeos= async () => {
             for(let x = 1; x< numEpisodeos;x ++){
                 console.log(`Inserido episodeos${x} de ${numEpisodeos}`);
                 await new Episodeo({
-                    temporada:temporada._id,
+                    temporada_id:temporada._id,
                     titulo:`Episodeos ${x}`,
                     numero:x,
                     descricao:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
